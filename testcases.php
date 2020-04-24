@@ -123,6 +123,27 @@ mysql_tablename();
 mysql_thread_id();
 mysql_unbuffered_query();
 
+// migration from 5.2 to 5.3
+dl();
+ereg();
+ereg_replace();
+eregi();
+eregi_replace();
+mcrypt_generic_end();
+split();
+spliti();
+sql_regcase();
+mysql_db_query();
+mysql_escape_string();
+call_user_method();
+call_user_method_array();
+define_syslog_variables();
+set_magic_quotes_runtime();
+session_register();
+session_unregister();
+session_is_registered();
+set_socket_blocking();
+
 // New objects cannot be assigned by reference
 class C {}
 $c =& new C;
